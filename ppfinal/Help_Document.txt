@@ -1,0 +1,5 @@
+﻿Help document for PingPong Game by 21mcme17-Tridhatri Sontena
+1. Open the file “pingpong.zip” and extract files
+2. Open the project folder in terminal
+3. Run javac*.java
+4. Run java PingPongGame

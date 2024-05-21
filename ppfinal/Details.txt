@@ -1,0 +1,40 @@
+Team Details 
+Name : Tridhatri Sontena
+Roll no. : 21mcme17
+Mini Project Details :
+
+
+Name of the Project : "Ping Pong Game" 
+
+Files involved in the source code : 
+1.PingPongGame.java :
+The code imports several classes from the AWT and Swing libraries to create a graphical user interface (GUI) for the game.
+
+The PingPongGame class defines the game logic and implements the ActionListener interface. It sets up the game elements, such as the ball and paddles, and handles user input and collision detection. 
+The paint method is used to draw the game elements on the panel, and the actionPerformed method updates the game state and repaints the panel.
+
+The main method creates a JFrame object and adds an instance of the PingPongGame class to it. It sets the size and visibility of the window and launches the game.
+
+2.Ball.java
+
+The code defines a Ball class that represents a ball in the Ping Pong game. It has six integer fields that represent the ball's position, size, and speed in the horizontal and vertical directions.
+the Ball class encapsulates the properties of a ball in the Ping Pong game such as it's initial position,size and speed.
+
+3.Paddle.java
+
+The Paddle class is an abtract class that encapsulates the properties of a paddle.
+It serves as a base class for concrete implementations of the LeftPaddle and RightPaddle.
+
+The Paddle class has a constructor that takes four parameters and initializes the corresponding fields. The constructor allows the creation of a Paddle object with specific properties such as its initial position, size, and dimensions.
+
+4.LeftPaddle.java
+
+LeftPaddle.java extends the "Paddle" abstract class.
+By inheriting from the "Paddle" class, LeftPaddle class has access to all the properties and methods of the Paddle class. This allows the LeftPaddle object to have x, y, width, and height attributes without defining them explicitly in the LeftPaddle class.
+
+5.RightPaddle.java
+
+RightPaddle.java extends the "Paddle" abstract class.
+By inheriting from the "Paddle" class, RightPaddle class has access to all the properties and methods of the Paddle class. This allows the LeftPaddle object to have x, y, width, and height attributes without defining them explicitly in the LeftPaddle class.
+
+
